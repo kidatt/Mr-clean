@@ -1,0 +1,1155 @@
+/* 共通部分 */
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul ol {
+    list-style: none;
+}
+
+.c-header[data-page=top] {
+    padding: 73px 0 0 80px;
+}
+
+.logo {
+    line-height: 1px;
+}
+
+.logo a {
+    display: block;
+}
+
+.title_heading {
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* -------------------header----------------------------- */
+.header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 30px 150px 30px 25px;
+    background-color: #fff;
+}
+
+.header_nav {
+    position: fixed;
+}
+
+
+.header_logo h1 img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.header_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 37px;
+    right: 40px;
+    padding: 32px 30px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 84px;
+    height: 84px;
+    margin: 10px;
+}
+
+
+.header_button .bar {
+    height: 2px;
+    background: #fff;
+
+}
+
+
+
+
+.nav_global {
+    color: #ffffff;
+}
+
+.nav_global li h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+}
+
+.nav_global_list {
+    margin-top: 5px;
+}
+
+.nav_global_list li a {
+    position: relative;
+    padding-left: 25px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.header_nav_company {
+    position: absolute;
+    bottom: 80px;
+    color: #ffffff;
+}
+
+.title_heading {
+    font-size: 2.0rem;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+}
+
+/* ----------main--------------- */
+
+.wrapper_large {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.p-front_hero {
+    position: relative;
+    max-height: 900px;
+    min-height: 690px;
+}
+
+
+.p-front_hero-message {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+
+}
+
+.hero_image {
+    position: absolute;
+    right: 20px;
+    top: 54px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.cursol_model_trigger {
+    position: fixed;
+    z-index: 10;
+    opacity: 0;
+}
+
+.cursol_model_trigger button {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000;
+    border: 1px solid #ffffff;
+    border-radius: 80px;
+}
+
+/* -------about----------------------- */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 115px 30px;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.about_image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 577px;
+    height: 577px;
+    margin-right: 5.28vw;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.about_image>div {
+    position: relative;
+    z-index: 1;
+}
+.about_image::before {
+    content: "";
+    position: absolute;
+    top: 500420px;
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    z-index: 0;
+    top: calc(var(--about-circle-height) 430px);
+
+}
+
+.about_image>span {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-weight: 700;
+    color: #F1c012;
+
+}
+
+.about_content {
+    margin-right: 30px;
+}
+
+.about_text {
+    line-height: 2.4;
+}
+
+.button {
+    text-align: center;
+}
+
+.button input {
+    width: 380px;
+    background-color: #ffffff;
+    color: #000;
+    padding: 23px 30px 28px 30px;
+    font-size: 1.2rem;
+
+}
+
+.button input:hover {
+    background: #F1c012;
+    color: #000;
+}
+
+
+/* -------service---------------- */
+.wrapper_small {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.front_service {
+    margin: 150px 0 100px;
+}
+
+.c-heading span {
+    display: inline-block;
+    margin-bottom: 17px;
+    font-family:
+        "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    letter-spacing: 0.07em;
+    line-height: 1.7;
+    color: #F1c012;
+}
+
+.c-heading h2 {
+    font-size: 2.0rem;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+}
+
+
+.service_section_lead {
+    margin-top: 23px;
+}
+
+.service_section_lead p {
+    line-height: 2.1;
+}
+
+.service_area {
+    display: flex;
+    align-items: center;
+    margin: 90px 0 90px;
+}
+
+.service_area_img {
+    order: 2;
+    position: relative;
+    transform: translate(65px);
+
+}
+
+.service_area_img span::before {
+    content: "";
+    position: absolute;
+    top: 75%;
+    left: -99px;
+    width: 125px;
+    height: 2px;
+    background-color: #000;
+
+}
+
+
+
+.service_area_img span {
+    position: relative;
+    display: block;
+}
+
+
+.service_area_img::before {
+    content: "";
+    position: absolute;
+    top: 48%;
+    left: -100px;
+    width: 255px;
+    height: 2px;
+    background-color: #000;
+
+}
+.service_area_img:after {
+    top: 67%;
+    left: -19px;
+    width: 58px;
+    height: 1px;
+    -webkit-transform: rotate(-44deg);
+    transform: rotate(-44deg);
+}
+
+
+
+.service_area_img span::after {
+    content: "";
+    position: absolute;
+    top: 67%;
+    left: 10px;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    transform: rotate(-45deg);
+}
+
+.service_area_content {
+    order: 1;
+    margin: 72px 25px 0 0;
+}
+
+.service_area_item {
+    position: relative;
+    z-index: 1;
+    width: 280px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.service_area_item dt {
+    padding: 7px var(--area-padding) 11px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000;
+}
+
+.service_area_item dd {
+    padding: 14px var(--area-padding) 11px;
+    background-color: #ffffff;
+}
+
+.service_area_item dd ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service_area_item dd ul li {
+    position: relative;
+}
+
+.service_area_item dd ul li::after {
+    content: "・";
+}
+
+.service_area_item dd ul li:last-child::after {
+
+    content: none;
+}
+    
+
+/* -----------servicesection------------ */
+#servise .servise_section {
+    margin-top: 140px;
+}
+
+.service_section_label {
+    position: relative;
+    width: 415px;
+    margin-top: 65px;
+}
+
+.service_section_label span {
+    display: inline-block;
+    width: var(--sevice-label-width);
+    padding: 10px 20px 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 60px;
+}
+
+.service_section_label:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 340px;
+    height: 2px;
+    margin-left: 10px;
+    background-color: #000;
+}
+
+.service_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.service_card {
+    width: calc(50% - 22px);
+}
+
+.service_card_heading h3 {
+    font-size: 1.8rem;
+    line-height: 1.7;
+}
+
+.servise_card_lead {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+}
+
+.service_card_price {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 15px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+.service_card_price dt {
+    margin-right: 6px;
+    font: 1.3rem;
+    line-height: 2.2;
+}
+
+.service_card_price dd {
+    font-size: 2.3rem;
+    line-height: 2.0;
+    letter-spacing: 0;
+}
+
+.button_border a {
+    
+    width: 100%;
+    max-width: 600px;
+    padding: 23px 30px 28px;
+    font-size: 1.5rem;
+    color: #000;
+    border: 2px solid #000;
+    background-color: #ffffff;
+}
+
+.service_section_label {
+    margin-top: 120px;
+}
+
+.service_card_image {
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+/* ----------------------FLOW------------- */
+
+.flow {
+    position: relative;
+    margin-top: 60px;
+
+
+}
+
+.flow li {
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.flow-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    flex: 0 0 auto;
+}
+
+.flow-number span {
+    font-family:
+        "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 2.0rem;
+    line-height: 1;
+}
+
+.flow_button {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-around;
+}
+
+.button_button>div {
+    margin-right: 9px;
+}
+
+.button_mini {
+    margin-right: 9px;
+    margin-top: 15px;
+}
+
+
+.button_mini a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    padding: 15px 30px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.3ssrem;
+    color: #000;
+    border: 2px solid #000;
+    height: 40px;
+
+}
+
+.button_mini a img {
+    margin-right: 10px;
+}
+.flow:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    width: 2px;
+    height: calc(100% - 200px);
+    background-color: #000;
+    left: calc(var(--flow-number-width)/2 - 1px);
+
+
+}
+
+.flow li+li {
+    margin-top: 52px;
+}
+
+
+
+.flow_content h3 {
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.flow_content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+/* ---------contact------------ */
+.contact_link {
+    position: relative;
+    margin-top: 200px;
+    padding: 104px 0 130px;
+    color: #ffffff;
+    background-color: #000;
+}
+
+.contact_link::before {
+    z-index: 0;
+    top: -219px;
+    content: "";
+    position: absolute;
+    right: 242px;
+    display: block;
+    background-image: url(//mrclean.work/wp-content/themes/mr-clean/./image/illust/about-man.svg);
+    background-repeat: no-repeat;
+    background-size: var(--contact-link-image-width) var(--contact-link-image-height)
+}
+
+.contact_link_inner {
+    width: 100%;
+    max-width: 785px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.contact_link_heading {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact_link_heading span {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", "Helvetica Neue", "游ゴシック体", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Arial, "メイリオ", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+
+.contact_link_heading h2 {
+    margin-left: 22px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.contact_link_content {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.contact_link_list {
+    margin-right: 70px;
+}
+
+.contact_link_list li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact_link_list a img {
+    margin-right: 45px;
+    margin-bottom: 15px;
+}
+
+.contact_link_list a span {
+    position: relative;
+    font-size: 1.0rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+.contact_link_text {
+    font-size: 1.3rem;
+    line-height: 2.1;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+
+.contact_link_list li a span:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+
+
+/* -----------フッタ------------------------ */
+#footer {
+    position: relative;
+    padding: 60px 30px 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_nav li {
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+.footer_nav li a::before,
+.footer_nav li button::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+}
+
+
+.footer_nav li a .footer_nav li button {
+    position: relative;
+    display: inline-block;
+    font-size: 1.0rem;
+    font-weight: 500;
+    line-height: 2.1;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer_nav li::after {
+    content: "❘";
+    margin-left: 20px;
+}
+.footer_nav li:last-child::after {
+    content: none;
+}
+
+
+.footer_logo {
+    margin-top: 75px;
+}
+
+.footer_logo img {
+    width: 300px;
+    height: 80px;
+}
+
+.footer_text {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    ;
+}
+
+.footer_company {
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.footer_company dt {
+    position: relative;
+}
+
+.footer_company dt::after {
+    content: ":";
+}
+
+.footer_copyright {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+
+small {
+    font-size: 80%;
+}
+
+@media screen and (max-width: 767px) {
+.header {
+        padding: 30px 150px 30px 25px;
+    }
+.header img {
+        width: 237px;
+        height: 30px;
+}
+.header_button {
+    top: 15px;
+    padding: 17px;
+    width: 50px;
+    height: 50px;
+    }
+
+
+.wrapper_large {
+                padding: 0 20px;
+              }
+.p-front_hero {
+                max-height: 100%;
+                min-height: 100%;
+                margin-top: 95px;
+              }
+.hero_image {
+            position: static;
+            width: calc(100vw + 20px);
+            margin-top: 150px;
+              }
+.p-front__hero-main {
+                font-size: 7vw;
+                font-weight: bold;
+                line-height: 1.5;
+                letter-spacing: .05em;
+            }
+.p-front__hero-sub {
+                margin-top: 10px;
+                font-size: 0.3rem;
+                letter-spacing: .02em;
+            }
+                          
+        
+            
+.about {
+            padding: 40px 20px 45px;
+        }   
+
+ 
+
+
+.about {
+    display: block;
+    margin-top: 100px;
+}   
+
+.about_image {
+    width: 230px;
+    height: 230px;
+    margin-left: 45px;
+}
+
+
+.about_image >div img {
+    width: 140px;
+    margin-left: 40px;
+}
+.about_image::before {
+    top: calc(var(--about-circle-height) 185px); 
+    height: 2px;
+}
+.about_image>span{
+    top: 20px;
+    right: -30px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+ 
+
+
+.about_content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.title_heading {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.about_text {
+    margin: 17px 0 30px;
+}
+.about_text p {
+    font-size: 0.8rem;
+    line-height: 2;
+}
+.button  input {
+    
+    max-width: 98%;
+    max-height: 80px;
+    padding: 14px 30px 18px;
+    font-size: 0.8rem;
+}
+.c-heading span {
+    margin-bottom: 10px;
+}
+
+
+.c-heading h2 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.service_section_lead p {
+    line-height: 1.8;
+    font-size: 0.9rem;
+}
+
+
+
+.service_area {
+    display: block;
+    max-width: 315px;
+    margin: 40px auto 0;
+}
+
+.service_area_img {
+    width: 197px;
+    margin: 0 auto;
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+}
+
+.service_area_img:before {
+    top: 77%;
+    bottom: -150px;
+    left: -11px;
+    width: 1px;
+    height: 215px;
+}
+.service_area_img span:before {
+    left: 67px;
+    width: 80px;
+    height: 1px;
+    top: 45%;
+}
+
+.service_area_img img {
+    width: auto;
+}
+.service_area_img:after {
+    content: "";
+    position: absolute;
+    top: 45.4%;
+    left: 146px;
+    width: 1px;
+    height: 137px;
+    background-color: #000;
+    transform: rotate(-1deg);
+    
+}
+.service_area_img span:after {
+    top: 67%;
+    left: -19px;
+    width: 58px;
+    height: 1px;
+    transform: rotate(-44deg);
+}
+
+
+.service_area_content {
+    margin: 25px 0 0;
+}
+
+.service_area_item {
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+    --area-padding: 20px;
+    letter-spacing: 0;
+}
+
+
+.service_area_item dt {
+    font-size: 0.8rem;
+}
+.service_area_item dd {
+    font-size: 0.5rem;
+}
+.service_area_item  {
+    position: relative;
+    margin-top: 15px;
+}
+
+
+
+.service_area_item+.service_area_item:before  {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: -64px;
+    width: 72px;
+    height: 1px;
+    background-color: #000;
+}
+
+.service_wrap {
+    display: block;
+}
+
+.service_card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.service_card_image {
+    margin-bottom: 25px;
+}
+
+.service_card_price {
+    margin: 5px 0 20px;
+}
+.service_section_label {
+    width: 250px;
+    margin-top: 40px;
+}
+.service_section_label span {
+    padding: 15px 15px 16px;
+    font-size: 1.0rem;
+}
+
+.service_section_label:after {
+    width: 80px;
+}
+.service_card_heading h3 {
+    font-size: 1.5rem;
+}
+
+
+.button_border a {
+    padding: 6px 20px 9px;
+    font-size: 1.0rem;
+}
+.flow {
+    position: relative; 
+    margin-top: 60px;
+}
+.flow::before {
+    left: 42px;
+}
+
+.flow_number {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.flow_number span {
+        font-size: 1.2rem;
+    }
+
+.flow_content  h3{
+    font-size: 1.5rem;
+    
+}
+.flow li .flow_content h3{
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+.flow li .flow_content p {
+    font-size: 0.9rem;
+}
+.flow_button {
+    display: block;
+}
+
+
+.contact_link {
+    margin-top: 145px;
+    padding: 55px 0 60px;
+}
+.contact_link_inner {
+    padding: 0 45px;
+}
+.contact_link_heading {
+    display: block;
+}
+.contact_link_heading span {
+    font-size: 14.5vw;
+    letter-spacing: 0;
+
+}
+.contact_link_heading  h2 {
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-left: 0;
+
+}
+.contact_link_content {
+    display: block;
+}
+
+.contact_link_list li a span {
+    font-size: 0.8rem;
+}
+
+.contact_link_text  {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+#footer {
+    padding: 25px 40px 45px;
+
+}
+.footer_nav {
+    flex-wrap: wrap;
+}
+.footer_nav li {
+    margin: 0 10px 0 0;
+}
+.footer_nav li a, .footer_nav li {
+    font-size: 0.5rem;
+    line-height: 2.0em;
+}
+.footer_nav li:after {
+    margin-left: 10px;
+}
+
+.footer_nav li button:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+} 
+
+
+
+.footer_logo {
+    margin-top: 50px;
+}
+.footer_logo img {
+    height: 23px;
+    width: auto;
+}
+
+.footer_text {
+    letter-spacing: .02em;
+    font-size: .5vw;
+}
+.footer_company {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.footer_copyright {
+    position: static;
+    margin-top: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+
+}
+
+}
